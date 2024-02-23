@@ -1769,12 +1769,12 @@ impl anchor_lang::Id for Mango {
 use {default_env::default_env, solana_security_txt::security_txt};
 #[cfg(not(feature = "no-entrypoint"))]
 security_txt! {
-    name: "Mango v4",
-    project_url: "https://mango.markets",
-    contacts: "email:hello@blockworks.foundation,link:https://docs.mango.markets/mango-markets/bug-bounty,discord:https://discord.gg/mangomarkets",
-    policy: "https://github.com/blockworks-foundation/mango-v4/blob/main/SECURITY.md",
+    name: "Leh Markets",
+    project_url: "https://leh.gg",
+    contacts: "email:hello@leh.gg",
+    policy: "https://github.com/lehman-brothers-holdings/markets/blob/main/SECURITY.md",
     preferred_languages: "en",
-    source_code: "https://github.com/blockworks-foundation/mango-v4",
+    source_code: "https://github.com/lehman-brothers-holdings/markets/",
     source_revision: default_env!("GITHUB_SHA", "Unknown source revision"),
     source_release: default_env!("GITHUB_REF_NAME", "Unknown source release")
 }
