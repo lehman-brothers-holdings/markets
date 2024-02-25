@@ -19,7 +19,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE: mango-v4
+  IMAGE: markets
   REGISTRY: ghcr.io
 
 jobs:
