@@ -316,7 +316,7 @@ async fn main() -> anyhow::Result<()> {
     let (account_write_queue_sender, slot_queue_sender) = memory_target::init(chain_data).await?;
     let filter_config = FilterConfig {
         entity_filter: EntityFilter::filter_by_program_id(
-            "4MangoMjqJ2firMokCjjGgoK8d4MXcrgL7XJaL3w6fVg",
+            "LEH4u6EgtyVzqtwK1eB6fdgxJHX7HuARvgNdXKubw2h",
         ),
     };
     grpc_plugin_source::process_events(
