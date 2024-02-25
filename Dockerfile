@@ -1,7 +1,7 @@
 # syntax = docker/dockerfile:1.2
 # Base image containing all binaries, deployed to ghcr.io/lehman-brothers-holdings/markets:latest
 FROM rust:1.69.0-bullseye as base
-RUN cargo install cargo-chef --locked
+RUN cargo install cargo-chef --locked --version 0.1.62
 RUN rustup component add rustfmt
 RUN apt-get update && apt-get -y install clang cmake
 WORKDIR /app
