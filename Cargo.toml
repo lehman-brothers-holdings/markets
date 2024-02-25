@@ -15,7 +15,7 @@ pyth-sdk-solana = "0.8.0"
 serum_dex = { git = "https://github.com/openbook-dex/program.git", default-features=false }
 mango-feeds-connector = "0.2.1"
 
-# 1.16.7+ is required due to this: https://github.com/blockworks-foundation/mango-v4/issues/712
+# 1.16.7+ is required due to this: https://github.com/lehman-brothers-holdings/markets/issues/712
 solana-address-lookup-table-program = "~1.16.7"
 solana-account-decoder = "~1.16.7"
 solana-client = "~1.16.7"

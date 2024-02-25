@@ -19,7 +19,7 @@ By using this open source code, you acknowledge and agree to the above disclaime
 
 ## License
 
-See https://github.com/blockworks-foundation/mango-v4/blob/dev/LICENSE
+See https://github.com/lehman-brothers-holdings/markets/blob/dev/LICENSE
 
 ---
 

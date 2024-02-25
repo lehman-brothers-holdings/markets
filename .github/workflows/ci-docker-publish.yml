@@ -54,7 +54,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.REGISTRY }}/blockworks-foundation/${{ env.IMAGE }}:${{ github.sha }}
-            ${{ env.REGISTRY }}/blockworks-foundation/${{ env.IMAGE }}:latest
+            ${{ env.REGISTRY }}/lehman-brothers-holdings/${{ env.IMAGE }}:${{ github.sha }}
+            ${{ env.REGISTRY }}/lehman-brothers-holdings/${{ env.IMAGE }}:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max

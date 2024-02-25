@@ -1,8 +1,8 @@
 {
-  "name": "@blockworks-foundation/mango-v4",
+  "name": "@lehman-brothers-holdings/markets",
   "version": "0.21.29",
   "description": "Typescript Client for mango-v4 program.",
-  "repository": "https://github.com/blockworks-foundation/mango-v4",
+  "repository": "https://github.com/lehman-brothers-holdings/markets",
   "author": {
     "name": "Blockworks Foundation",
     "email": "hello@blockworks.foundation",

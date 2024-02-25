@@ -1,5 +1,5 @@
 # syntax = docker/dockerfile:1.2
-# Base image containing all binaries, deployed to ghcr.io/blockworks-foundation/mango-v4:latest
+# Base image containing all binaries, deployed to ghcr.io/lehman-brothers-holdings/markets:latest
 FROM rust:1.69.0-bullseye as base
 RUN cargo install cargo-chef --locked
 RUN rustup component add rustfmt
