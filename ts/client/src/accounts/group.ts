@@ -167,7 +167,7 @@ export class Group {
         await (
           await buildFetch()
         )(
-          `https://api.mngo.cloud/data/v4/risk/listed-tokens-one-week-price-impacts`,
+          `https://api.leh.broker/data/v4/risk/listed-tokens-one-week-price-impacts`,
           {
             mode: 'cors',
             headers: {

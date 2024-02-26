@@ -12,7 +12,7 @@ import {
   createAssociatedTokenAccountIdempotentInstruction,
 } from './utils';
 
-export const MANGO_ROUTER_API_URL = 'https://api.mngo.cloud/router/v1';
+export const MANGO_ROUTER_API_URL = 'https://api.leh.broker/router/v1';
 
 export interface QuoteParams {
   sourceMint: string;

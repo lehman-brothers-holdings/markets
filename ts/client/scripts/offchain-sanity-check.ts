@@ -14,7 +14,7 @@ dotenv.config();
 const CLUSTER_URL =
   process.env.CLUSTER_URL_OVERRIDE || process.env.MB_CLUSTER_URL;
 const GROUP_PK =
-  process.env.GROUP_PK || '78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX';
+  process.env.GROUP_PK || 'EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu';
 const CLUSTER: Cluster =
   (process.env.CLUSTER_OVERRIDE as Cluster) || 'mainnet-beta';
 
@@ -46,7 +46,7 @@ async function main(): Promise<void> {
     )} ${'Diff'.padStart(16)}`,
   );
   for (const a of largeMangoAccounts) {
-    const url = `https://api.mngo.cloud/data/v4/stats/performance_account?mango-account=${a.publicKey}&start-date=2023-04-29`;
+    const url = `https://api.leh.broker/data/v4/stats/performance_account?mango-account=${a.publicKey}&start-date=2023-04-29`;
     const resp = await fetch(url);
     const data = await resp.json();
     const keys = Object.keys(data).sort(
@@ -112,7 +112,7 @@ async function main(): Promise<void> {
   }
   for (const a of largeMangoAccounts) {
     const resp = await fetch(
-      `https://api.mngo.cloud/data/v4/stats/funding-account-total?mango-account=${a.publicKey}`,
+      `https://api.leh.broker/data/v4/stats/funding-account-total?mango-account=${a.publicKey}`,
     );
     const data = await resp.json();
 

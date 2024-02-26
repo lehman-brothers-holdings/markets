@@ -2,7 +2,7 @@
 
 This module parses bookside accounts and exposes L2 and L3 data and updates on a websocket
 
-Public API: `https://api.mngo.cloud/orderbook/v1/`
+Public API: `https://api.leh.broker/orderbook/v1/`
 
 ## API Reference
 

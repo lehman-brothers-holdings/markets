@@ -27,7 +27,7 @@ export const MANGO_V4_ID = {
 };
 
 export const MANGO_V4_MAIN_GROUP = new PublicKey(
-  '78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX',
+  'EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu',
 );
 
 export const USDC_MINT = new PublicKey(

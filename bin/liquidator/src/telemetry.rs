@@ -28,7 +28,7 @@ async fn report(client: &MangoClient, min_health_ratio: f64) -> anyhow::Result<(
         "signature": signature.to_string(),
     });
 
-    let url = "https://api.mngo.cloud/data/v4/user-data/liquidator-capacity";
+    let url = "https://api.leh.broker/data/v4/user-data/liquidator-capacity";
     let response = client.http_client.post(url).json(&payload).send().await?;
     let res_text = response.text().await?;
     if res_text != "null" {

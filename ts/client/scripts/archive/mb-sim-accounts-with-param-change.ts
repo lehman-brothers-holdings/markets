@@ -15,7 +15,7 @@ const SOME_KEYPAIR =
 const CLUSTER: Cluster =
   (process.env.CLUSTER_OVERRIDE as Cluster) || 'mainnet-beta';
 
-const GROUP_PK = '78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX';
+const GROUP_PK = 'EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu';
 
 async function main(): Promise<void> {
   const options = AnchorProvider.defaultOptions();

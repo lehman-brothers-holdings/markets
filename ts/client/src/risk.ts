@@ -494,7 +494,7 @@ export async function buildGroupGrid(
         await (
           await buildFetch()
         )(
-          `https://api.mngo.cloud/data/v4/risk/listed-tokens-one-week-price-impacts`,
+          `https://api.leh.broker/data/v4/risk/listed-tokens-one-week-price-impacts`,
           {
             mode: 'cors',
             headers: {
@@ -581,7 +581,7 @@ export async function getRiskStats(
       await (
         await buildFetch()
       )(
-        `https://api.mngo.cloud/data/v4/risk/listed-tokens-one-week-price-impacts`,
+        `https://api.leh.broker/data/v4/risk/listed-tokens-one-week-price-impacts`,
         {
           mode: 'cors',
           headers: {
@@ -603,7 +603,7 @@ export async function getRiskStats(
         await (
           await buildFetch()
         )(
-          `https://api.mngo.cloud/data/v4/stats/liqors-over_period?over_period=1MONTH`,
+          `https://api.leh.broker/data/v4/stats/liqors-over_period?over_period=1MONTH`,
           {
             mode: 'cors',
             headers: {
@@ -629,7 +629,7 @@ export async function getRiskStats(
         await (
           await buildFetch()
         )(
-          `https://api.mngo.cloud/data/v4/stats/perp-makers-over_period?over-period=1WEEK`,
+          `https://api.leh.broker/data/v4/stats/perp-makers-over_period?over-period=1WEEK`,
           {
             mode: 'cors',
             headers: {

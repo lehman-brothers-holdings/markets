@@ -277,7 +277,7 @@ async function main(): Promise<void> {
   });
 
   const group = await client.getGroup(
-    new PublicKey('78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX'),
+    new PublicKey('EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu'),
   );
 
   const mangoAccounts = await client.getAllMangoAccounts(group, true);

@@ -23,7 +23,7 @@ import { bpsToDecimal, percentageToDecimal, toNative } from '../src/utils';
 const { MB_CLUSTER_URL, MB_PAYER_KEYPAIR } = process.env;
 
 const CLIENT_USER = MB_PAYER_KEYPAIR;
-const GROUP_PK = '78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX';
+const GROUP_PK = 'EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu';
 
 const defaultOracleConfig = {
   confFilter: 0.1,

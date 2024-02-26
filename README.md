@@ -35,7 +35,7 @@ See DEVELOPING.md and FAQ-DEV.md
 
 - devnet: LEH4u6EgtyVzqtwK1eB6fdgxJHX7HuARvgNdXKubw2h
 - mainnet-beta: LEH4u6EgtyVzqtwK1eB6fdgxJHX7HuARvgNdXKubw2h
-- primary mango group on mainnet-beta: 78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX
+- primary mango group on mainnet-beta: EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu
 
 ### Release
 

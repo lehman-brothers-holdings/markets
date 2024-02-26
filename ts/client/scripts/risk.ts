@@ -6,7 +6,7 @@ import { getLiquidationBatches, getRiskStats } from '../src/risk';
 
 const { MB_CLUSTER_URL } = process.env;
 
-const GROUP_PK = '78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX';
+const GROUP_PK = 'EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu';
 
 async function buildClient(): Promise<MangoClient> {
   const clientKeypair = new Keypair();

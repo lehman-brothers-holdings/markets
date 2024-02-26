@@ -48,7 +48,7 @@ async function main() {
     outputMint: string,
   ): Promise<void> {
     const response = await fetch(
-      `https://api.mngo.cloud/router/v1/depth?inputMint=${inputMint}&outputMint=${outputMint}&priceImpactLimit=${priceImpact}`,
+      `https://api.leh.broker/router/v1/depth?inputMint=${inputMint}&outputMint=${outputMint}&priceImpactLimit=${priceImpact}`,
     );
     const res = await response.json();
     console.log(

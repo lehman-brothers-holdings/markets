@@ -5,7 +5,7 @@ import { toUiDecimals } from '../src/utils';
 async function run() {
   const client = await MangoClient.connectDefault(process.env.MB_CLUSTER_URL!);
   let group = await client.getGroup(
-    new PublicKey('78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX'),
+    new PublicKey('EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu'),
   );
 
   let accounts = await client.getAllMangoAccounts(group, true);

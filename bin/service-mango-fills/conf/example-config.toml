@@ -1,6 +1,6 @@
 bind_ws_addr = "0.0.0.0:8080"
 rpc_http_url = "http://mango.rpcpool.com/<token>"
-mango_group = "78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX"
+mango_group = "EPmFN4MZHUiLJwcwmmEH2rXTy4J8jMipJUz7iSbV9KWu"
 
 [metrics]
 output_stdout = true

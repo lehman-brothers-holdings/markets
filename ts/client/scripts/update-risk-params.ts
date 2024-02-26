@@ -98,7 +98,7 @@ async function getTotalLiqorEquity(
       await (
         await buildFetch()
       )(
-        `https://api.mngo.cloud/data/v4/stats/liqors-over_period?over_period=1MONTH`,
+        `https://api.leh.broker/data/v4/stats/liqors-over_period?over_period=1MONTH`,
         {
           mode: 'cors',
           headers: {
