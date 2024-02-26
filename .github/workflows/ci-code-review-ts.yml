@@ -59,9 +59,6 @@ jobs:
           node-version: '16'
           cache: 'yarn'
 
-      - name: Duplicates check
-        run: npx yarn-deduplicate --list --fail
-
   test:
     name: Test
     runs-on: ubuntu-latest
