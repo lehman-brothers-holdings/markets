@@ -132,7 +132,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install 
 
       - name: Check
         run: yarn ts-node ts/client/scripts/idl-compare.ts main/mango_v4.json mango_v4.json

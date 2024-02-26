@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.node-cache.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
+        run: yarn install 
 
       - name: Build TS Client Docs
         run: yarn typedoc ts/client/src/index.ts --readme none --out ./docs/ts/client/
